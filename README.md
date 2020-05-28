@@ -1,7 +1,7 @@
 
 ![App Brewery Banner](Documentation/AppBreweryBanner.png)
 
-#  Twittermenti
+#  Image Recognizer
 
 
 
