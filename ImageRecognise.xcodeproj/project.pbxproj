@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37B4BC12247FC28D00A93B51 /* CustomAnimalImageRecogniser.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 37B4BC11247FC28D00A93B51 /* CustomAnimalImageRecogniser.mlmodel */; };
 		37B4FE0B247EBCC30024DBB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B4FE0A247EBCC30024DBB8 /* AppDelegate.swift */; };
 		37B4FE0D247EBCC30024DBB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B4FE0C247EBCC30024DBB8 /* SceneDelegate.swift */; };
-		37B4FE0F247EBCC30024DBB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B4FE0E247EBCC30024DBB8 /* ViewController.swift */; };
+		37B4FE0F247EBCC30024DBB8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B4FE0E247EBCC30024DBB8 /* HomeViewController.swift */; };
 		37B4FE12247EBCC30024DBB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B4FE10247EBCC30024DBB8 /* Main.storyboard */; };
 		37B4FE14247EBCC60024DBB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B4FE13247EBCC60024DBB8 /* Assets.xcassets */; };
 		37B4FE17247EBCC60024DBB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B4FE15247EBCC60024DBB8 /* LaunchScreen.storyboard */; };
+		37B4FE1F247EBD580024DBB8 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 37B4FE1E247EBD580024DBB8 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37B4BC11247FC28D00A93B51 /* CustomAnimalImageRecogniser.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CustomAnimalImageRecogniser.mlmodel; sourceTree = "<group>"; };
 		37B4FE07247EBCC30024DBB8 /* ImageRecognise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B4FE0A247EBCC30024DBB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37B4FE0C247EBCC30024DBB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		37B4FE0E247EBCC30024DBB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37B4FE0E247EBCC30024DBB8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		37B4FE11247EBCC30024DBB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37B4FE13247EBCC60024DBB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37B4FE16247EBCC60024DBB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37B4FE18247EBCC60024DBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B4FE1E247EBD580024DBB8 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				37B4FE0A247EBCC30024DBB8 /* AppDelegate.swift */,
 				37B4FE0C247EBCC30024DBB8 /* SceneDelegate.swift */,
-				37B4FE0E247EBCC30024DBB8 /* ViewController.swift */,
+				37B4FE0E247EBCC30024DBB8 /* HomeViewController.swift */,
 				37B4FE10247EBCC30024DBB8 /* Main.storyboard */,
 				37B4FE13247EBCC60024DBB8 /* Assets.xcassets */,
 				37B4FE15247EBCC60024DBB8 /* LaunchScreen.storyboard */,
 				37B4FE18247EBCC60024DBB8 /* Info.plist */,
+				37B4FE1E247EBD580024DBB8 /* MobileNetV2.mlmodel */,
+				37B4BC11247FC28D00A93B51 /* CustomAnimalImageRecogniser.mlmodel */,
 			);
 			path = ImageRecognise;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37B4FE0F247EBCC30024DBB8 /* ViewController.swift in Sources */,
+				37B4BC12247FC28D00A93B51 /* CustomAnimalImageRecogniser.mlmodel in Sources */,
+				37B4FE0F247EBCC30024DBB8 /* HomeViewController.swift in Sources */,
 				37B4FE0B247EBCC30024DBB8 /* AppDelegate.swift in Sources */,
+				37B4FE1F247EBD580024DBB8 /* MobileNetV2.mlmodel in Sources */,
 				37B4FE0D247EBCC30024DBB8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB6572M484;
 				INFOPLIST_FILE = ImageRecognise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB6572M484;
 				INFOPLIST_FILE = ImageRecognise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
